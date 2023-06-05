@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container > div:first-child {
+    border-right: 10px solid #0692DF;
+}
+
+.container > div:last-child {
+    border-left: 10px solid #0692DF;
+}
+
+.text-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #EDDA02;
+}
+
+.text-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.text-container > div:first-child {
+    background-color: #9821AB;
+}
+.text-container > div:nth-child(2) {
+    background-color: #16A6DB;
+}
+.text-container > div:nth-child(3) {
+    background-color: #63CF17;
+}
+.text-container > div:nth-child(4) {
+    background-color: #FE8E20;
+}
+.text-container > div:last-child {
+    background-color: #E03090;
+}
+
+.btns-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #EDDA02;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(5, 1fr) ;
+    /* grid-template-rows: repeat(2, 1fr); */
+    padding: 10px;
+}
+
+.btns-container > button {
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btns-container > button:first-child {
+    background-color: #9821AB;
+}
+.btns-container > button:nth-child(2) {
+    background-color: #16A6DB;
+}
+.btns-container > button:nth-child(3) {
+    background-color: #63CF17;
+}
+.btns-container > button:nth-child(4) {
+    background-color: #FE8E20;
+}
+.btns-container > button:nth-child(5) {
+    background-color: #E03090;
+}
+.btns-container > button:nth-child(7) {
+    background-color: #07AF98;
+}
+.btns-container > button:nth-child(8) {
+    background-color: pink;
+}
+
+.highlight {
+    background-color: #EDDA02;
+}
+
+
